@@ -4,7 +4,11 @@
 
 Link para apresentação da Pratica 01 - Locadora de imoveis:
 <br>
+Google Drive:
 https://drive.google.com/drive/folders/1US1NtsykXzP2dois_Z1iSEUOjiJdX2X2?usp=sharing
+<br>
+You Tube:
+https://youtu.be/XA6nf9M3Fmo
 
 ### Autores do Código:
 
