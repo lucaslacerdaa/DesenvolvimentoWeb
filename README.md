@@ -5,6 +5,8 @@
 <br>
 Trata-se de uma plataforma simples para exercitar o uso das tecnologias HTML, CSS e JS, na qual tem o propósito de inserir anúncios. Seguindo a logica o usuário insere os dados e ao adicionar imóvel é gerada uma lista onde é inserido esses anúncios. Ao repetir o processo a lista cresce com a medida das inserções.
 <br>
+<br>
+
 
 Link para apresentação da Pratica 01 - Locadora de imoveis:
 <br>
