@@ -5,4 +5,5 @@
 Autores do projeto:
 
 João Lucas Barreto Lacerda (476476)
+<br>
 Joelson José de Macedo Carvalho (472621)
