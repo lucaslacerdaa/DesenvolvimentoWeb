@@ -9,6 +9,6 @@ https://drive.google.com/drive/folders/1US1NtsykXzP2dois_Z1iSEUOjiJdX2X2?usp=sha
 Autores do Código:
 
 <li>João Lucas Barreto Lacerda (474676)</li>
-<li>oelson José de Macedo Carvalho (472621)</li>
+<li>Joelson José de Macedo Carvalho (472621)</li>
 
 
