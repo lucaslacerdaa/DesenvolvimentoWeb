@@ -11,7 +11,7 @@ function adicionar() {
     let img = document.getElementById("img").value;
     let anuncios = document.getElementById("anuncios").innerHTML;
 
-    anuncios += "<label> <br>" + titulo + "</br>" + descricao + "<br>" + quartos + "</br>" + vagas + "<br>" + areaTerreno + "</br>" + areaConstruida + "<br>" + localidade + "</br>" + preco + "<br> <img src=\"" + img + "\"> </img> </br>"
+    anuncios += "<br><label> <br>" + titulo + "</br>" + descricao + "<br>" + quartos + "</br>" + vagas + "<br>" + areaTerreno + "</br>" + areaConstruida + "<br>" + localidade + "</br>" + preco + "<br> <img src=\"" + img + "\"> </img> </br>"
 
     document.getElementById("anuncios").innerHTML = anuncios;
 }

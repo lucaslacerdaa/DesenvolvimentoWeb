@@ -66,7 +66,7 @@ body{
     margin-right: 2rem;
     font-weight: normal;
     text-align: left;
-    
+       
 
     color: rgb(255, 255, 255);
     background: #131f0e81;
@@ -171,7 +171,8 @@ footer{
 }
 
 #anuncios{
-    font-size: 20px; 
+    text-align: center;
+    font-size: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
