@@ -50,8 +50,13 @@ body{
 }
 
 .imageCar img{
+    
     height: 50%;
-    width: 100%;
+    width: 70%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 1rem;
+    
 }
 
 .card{
