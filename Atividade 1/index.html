@@ -1,108 +1,132 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>localMov</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
     <script src="./script.js" defer></script>
-</head>
+  </head>
 
-
-<body>
+  <body>
     <header class="logo">
-            <img src="/img/Sem Título-1.png" alt="logo da LocaMov">
+      <img src="./img/logo.png" alt="logo da LocaMov" />
     </header>
 
-
     <div class="card">
-        <div class="SubCab">
-            <h1>Inserir anúncio</h1>
-        </div>
+      <div class="SubCab">
+        <h1>Inserir anúncio</h1>
+      </div>
 
-        <div class="input-group">
-            <label for="titulo">Título</label>
-            <br>
-            <input type="text" id="titulo" name="titulo" placeholder="Titulo" />
-        </div>
+      <div class="input-group">
+        <label for="titulo">Título</label>
+        <br />
+        <input type="text" id="titulo" name="titulo" placeholder="Titulo" />
+      </div>
 
-        <div class="input-group">
-            <label for="descricao">Descrição</label>
-            <br>
-            <input type="text" id="descricao" name="descrição" placeholder="Descrição" />
-        </div>
+      <div class="input-group">
+        <label for="descricao">Descrição</label>
+        <br />
+        <input
+          type="text"
+          id="descricao"
+          name="descrição"
+          placeholder="Descrição"
+        />
+      </div>
 
-        <div class="input-group">
-            <label for="quartos">Quartos</label>
-            <br>
-            <input type="text" id="quartos" name="quartos" placeholder="Quantidade quartos" />
-        </div>
+      <div class="input-group">
+        <label for="quartos">Quartos</label>
+        <br />
+        <input
+          type="text"
+          id="quartos"
+          name="quartos"
+          placeholder="Quantidade quartos"
+        />
+      </div>
 
-        <div class="input-group">
-            <label for="vagas">Vagas de garagem</label>
-            <br>
-            <input type="text" id="vagas" name="vagas" placeholder="Quantidade vagas" />
-        </div>
+      <div class="input-group">
+        <label for="vagas">Vagas de garagem</label>
+        <br />
+        <input
+          type="text"
+          id="vagas"
+          name="vagas"
+          placeholder="Quantidade vagas"
+        />
+      </div>
 
-        <div class="input-group">
-            <label for="areaTerreno">Área do terreno</label>
-            <br>
-            <input type="text" id="areaTerreno" name="areaTerreno" placeholder="m²" />
-        </div>
+      <div class="input-group">
+        <label for="areaTerreno">Área do terreno</label>
+        <br />
+        <input
+          type="text"
+          id="areaTerreno"
+          name="areaTerreno"
+          placeholder="m²"
+        />
+      </div>
 
-        <div class="input-group">
-            <label for="areaConstruida">Área construída</label>
-            <br>
-            <input type="text" id="areaConstruida" name="areaContruida" placeholder="m²" />
-        </div>
+      <div class="input-group">
+        <label for="areaConstruida">Área construída</label>
+        <br />
+        <input
+          type="text"
+          id="areaConstruida"
+          name="areaContruida"
+          placeholder="m²"
+        />
+      </div>
 
-        <div class="input-group">
-            <label for="localidade">Localidade</label>
-            <br>
-            <input type="text" id="localidade" name="Localidade" placeholder="Endereço" />
-        </div>
+      <div class="input-group">
+        <label for="localidade">Localidade</label>
+        <br />
+        <input
+          type="text"
+          id="localidade"
+          name="Localidade"
+          placeholder="Endereço"
+        />
+      </div>
 
-        <div class="input-group">
-            <label for="preco">Preço</label>
-            <br>
-            <input type="text" id="preco" name="preço" placeholder="R$ 0,00" />
-        </div>
+      <div class="input-group">
+        <label for="preco">Preço</label>
+        <br />
+        <input type="text" id="preco" name="preço" placeholder="R$ 0,00" />
+      </div>
 
-        <div class="input-group">
-            <label for="img">Imagem</label>
-            <br>
-            <input type="text" id="img" name="img" placeholder="URL da imagem"/>
-        </div>
+      <div class="input-group">
+        <label for="img">Imagem</label>
+        <br />
+        <input type="text" id="img" name="img" placeholder="URL da imagem" />
+      </div>
 
-        <div class="bottonConfirma">
-            <button id="Confirmar" onclick="adicionar()">Confirmar</button>
-        </div>
+      <div class="bottonConfirma">
+        <button id="Confirmar" onclick="adicionar()">Confirmar</button>
+      </div>
 
-        <div class="bottonLimpar">
-            <button onclick="limpar()" id="Limpar" >Limpar</button>
-        </div>
-
+      <div class="bottonLimpar">
+        <button onclick="limpar()" id="Limpar">Limpar</button>
+      </div>
     </div>
 
     <div class="card">
-        <div class="listaTitulo">
-            <h1>Lista</h1>
-        </div>
-        
-        <ul id="anuncios">
-
-        </ul>
+      <div class="listaTitulo">
+        <h1>Lista</h1>
+      </div>
+      <div class="imageCar">
+        <ul id="anuncios"></ul>
+      </div>
     </div>
     <footer>
-        <div class="rodape">LocalMov</div>
+      <div class="rodape">LocalMov</div>
     </footer>
-    
-</body>
-
+  </body>
 </html>
