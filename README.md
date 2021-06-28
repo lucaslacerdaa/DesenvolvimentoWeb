@@ -1,4 +1,4 @@
-# Desenvolvimento de Software para Web
+# Desenvolvimento de Software para Web :computer:
 
 Área de _Desenvolvimento de software para WEB_ do curso de bacharelado em Ciência da Computação pela Faculdade Federal do Ceará.
 <br>
