@@ -125,11 +125,7 @@
         <button type="button" class="btn btn-danger" v-on:click="limpar()">
           Limpar
         </button>
-        <button
-          type="button"
-          class="btn btn-dark"
-          onclick="dataStorage()"
-        >
+        <button type="button" class="btn btn-dark" v-on:click="dataStorage()">
           Dados do LocalStorage
         </button>
       </div>
@@ -137,7 +133,7 @@
 
     <div class="list-group">
       <h1 class="listaTitulo">Lista</h1>
-      <div class="list-group-item" v-for="ad in ads" :key="ad.title">
+      <div id="list" class="list-group-item" v-for="ad in ads" :key="ad.title">
         <h2 class="title">Título: {{ ad.title }}</h2>
         <p>Descrição: {{ ad.description }}</p>
         <p>Preço: {{ ad.price }}</p>
@@ -149,14 +145,6 @@
         <img :src="ad.img" alt="" />
       </div>
     </div>
-
-    <div class="storage">
-        <h1>LocalStorage</h1>
-        <div class="list-storage">
-            <h2 class="title"></h2>
-        </div>
-    </div>
-
   </div>
 </template>
 
@@ -186,31 +174,30 @@ export default {
         this.bedroom.trim() === "" ||
         this.garage.trim() === "" ||
         this.area_ground.trim() === "" ||
-        this.area_built.trim() === "" || 
-        this.price <= 0 || 
-        this.bedroom <= 0 || 
-        this.garage <0 ||
+        this.area_built.trim() === "" ||
+        this.price <= 0 ||
+        this.bedroom <= 0 ||
+        this.garage < 0 ||
         this.area_ground <= 0 ||
         this.area_built < 0
       ) {
         return;
       }
-     
-        this.ads.push({
-          title: this.title,
-          description: this.description,
-          price: this.price,
-          adress: this.adress,
-          bedroom: this.bedroom,
-          garage: this.garage,
-          area_ground: this.area_ground,
-          area_built: this.area_built,
-          img: this.img,
-        });
 
-        var adJSON = JSON.stringify(this.ads);
-        localStorage.setItem("adsLs", adJSON);
+      this.ads.push({
+        title: this.title,
+        description: this.description,
+        price: this.price,
+        adress: this.adress,
+        bedroom: this.bedroom,
+        garage: this.garage,
+        area_ground: this.area_ground,
+        area_built: this.area_built,
+        img: this.img,
+      });
 
+      var adJSON = JSON.stringify(this.ads);
+      localStorage.setItem("adsLs", adJSON);
     },
     limpar() {
       (this.title = ""),
@@ -223,11 +210,10 @@ export default {
         (this.area_built = ""),
         (this.img = "");
     },
-    dataStorage(){
-        var text = localStorage.getItem("adLs");
-        var objAd = JSON.parse(text);
-        console.log(objAd);
-    }
+    dataStorage() {
+      var text = localStorage.getItem("adsLs");
+      this.ads = JSON.parse(text);
+    },
   },
 };
 </script>
