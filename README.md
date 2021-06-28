@@ -19,6 +19,6 @@ Prática 02 (*You Tube*) |
 
 #### Autores do Código:
 
-<li>João Lucas Barreto Lacerda (474676).</li>
-<li>Joelson José de Macedo Carvalho (472621).</li>
+<li>João Lucas Barreto Lacerda (474676). :mortar_board:</li>
+<li>Joelson José de Macedo Carvalho (472621). :mortar_board:</li>
 
