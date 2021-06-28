@@ -1,6 +1,8 @@
 # DesenvolvimentoWeb
 Área de Desenvolvimento de software para WEB do curso de bacharelado em Ciência da Computação pela Faculdade Federal do Ceará
 <br>
+>> O intuito dessa aplicação é selecionar os dados no inputs e jogar numa lista.
+
 
 Link para apresentação da Pratica 01 - Locadora de imoveis:
 <br>
