@@ -33,7 +33,7 @@
           <label for="preco">Preço</label>
           <br />
           <input
-            type="text"
+            type="number"
             id="preco"
             name="preço"
             placeholder="R$ 0,00"
@@ -59,7 +59,7 @@
           <label for="quartos">Quartos</label>
           <br />
           <input
-            type="text"
+            type="number"
             id="quartos"
             name="quartos"
             placeholder="Quantidade quartos"
@@ -73,7 +73,7 @@
           <label for="vagas">Vagas de garagem</label>
           <br />
           <input
-            type="text"
+            type="number"
             id="vagas"
             name="vagas"
             placeholder="Quantidade vagas"
@@ -84,7 +84,7 @@
           <label for="areaTerreno">Área do terreno</label>
           <br />
           <input
-            type="text"
+            type="number"
             id="areaTerreno"
             name="areaTerreno"
             placeholder="m²"
@@ -95,7 +95,7 @@
           <label for="areaConstruida">Área construída</label>
           <br />
           <input
-            type="text"
+            type="number"
             id="areaConstruida"
             name="areaContruida"
             placeholder="m²"
