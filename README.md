@@ -1,7 +1,9 @@
 # DesenvolvimentoWeb
 Área de Desenvolvimento de software para WEB do curso de bacharelado em Ciência da Computação pela Faculdade Federal do Ceará
 <br>
->> O intuito dessa aplicação é selecionar os dados no inputs e jogar numa lista.
+
+> O intuito dessa aplicação é selecionar os dados no inputs e retornar em uma lista de elementos.
+> Onde cada pratica tem o intuido de ir melhorando as tecnicas de desenvolvimento de sites.
 
 
 Link para apresentação da Pratica 01 - Locadora de imoveis:
