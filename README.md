@@ -1,18 +1,24 @@
-# DesenvolvimentoWeb
-Área de Desenvolvimento de software para WEB do curso de bacharelado em Ciência da Computação pela Faculdade Federal do Ceará
+# Desenvolvimento de Software para Web
+
+Área de _Desenvolvimento de software para WEB_ do curso de bacharelado em Ciência da Computação pela Faculdade Federal do Ceará.
 <br>
 
-> O intuito dessa aplicação é selecionar os dados no inputs e retornar em uma lista de elementos.
-> Onde cada pratica tem o intuido de ir melhorando as tecnicas de desenvolvimento de sites.
+> O intuito dessa aplicação é selecionar os dados no inputs e retornar em uma lista de elementos. Onde cada pratica tem o intuído de ir melhorando as técnicas de desenvolvimento de sites.
 
+####  Pratica 01:
+> - Referia-se a desenvolver uma plataforma de locação de moveis apenas com HMTL, CSS e JavaScript. Para exercitar os conceitos básicos e estruturais das linguagens de marcação e programação.
+> *A pratica localza-se na branch: "lucaslacerdaa-Pratica01"*
 
-Link para apresentação da Pratica 01 - Locadora de imoveis:
-<br>
-https://drive.google.com/drive/folders/1US1NtsykXzP2dois_Z1iSEUOjiJdX2X2?usp=sharing
+ #### Pratica 02:
+ > -   Obrigatoriamente utilizar Bootstrap (customizar) e Vue.js (condicionais e dinamismo do site) para otimizar a plataforma da __pratica 01__. Também fazendo o uso de JSON.
 
-Autores do Código:
+Pratica   | Link para acesso
+--------- | ------
+Prática 01 (*You Tube*) | https://www.youtube.com/watch?v=XA6nf9M3Fmo&list=LLMJFGhrSssePHdyFANyhLXQ
+Prática 02 (*You Tube*) | 
 
-<li>João Lucas Barreto Lacerda (474676)</li>
-<li>Joelson José de Macedo Carvalho (472621)</li>
+#### Autores do Código:
 
+<li>João Lucas Barreto Lacerda (474676).</li>
+<li>Joelson José de Macedo Carvalho (472621).</li>
 
