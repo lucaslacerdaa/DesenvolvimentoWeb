@@ -14,8 +14,8 @@ O intuito dessa aplicação é selecionar os dados no inputs e retornar em uma l
 
 Pratica   | Link para acesso
 --------- | ------
-Prática 01 (*You Tube*) | https://www.youtube.com/watch?v=XA6nf9M3Fmo&list=LLMJFGhrSssePHdyFANyhLXQ
-Prática 02 (*You Tube*) | 
+Prática 01 (*You Tube*) | https://youtu.be/XA6nf9M3Fmo
+Prática 02 (*You Tube*) | https://youtu.be/LaIEY7rqIFk
 
 #### Autores do Código:
 
