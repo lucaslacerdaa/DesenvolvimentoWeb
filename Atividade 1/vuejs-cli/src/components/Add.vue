@@ -1,12 +1,12 @@
 <template>
-  <div class="container">
-    <div class="form-todo form-group">
+  <div class="card" style="width: 70rem">
+    <ul class="list-group list-group-flush">
       <div class="SubCab">
         <h1>Inserir anúncio</h1>
       </div>
 
       <div class="row">
-        <div class="col">
+        <div class="col-12">
           <label for="titulo">Título</label>
           <br />
           <input
@@ -18,7 +18,7 @@
           />
         </div>
 
-        <div class="col">
+        <div class="col-12">
           <label for="descricao">Descrição</label>
           <br />
           <input
@@ -29,7 +29,7 @@
             v-model="description"
           />
         </div>
-        <div class="col-center">
+        <div class="col-12">
           <label for="preco">Preço</label>
           <br />
           <input
@@ -41,7 +41,7 @@
           />
         </div>
 
-        <div class="col">
+        <div class="col-12">
           <label for="localidade">Localidade</label>
           <br />
           <input
@@ -52,10 +52,8 @@
             v-model="adress"
           />
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col">
+        <div class="col-12">
           <label for="quartos">Quartos</label>
           <br />
           <input
@@ -66,9 +64,7 @@
             v-model="bedroom"
           />
         </div>
-      </div>
 
-      <div class="row">
         <div class="col-12">
           <label for="vagas">Vagas de garagem</label>
           <br />
@@ -80,7 +76,7 @@
             v-model="garage"
           />
         </div>
-        <div class="col-6">
+        <div class="col-12">
           <label for="areaTerreno">Área do terreno</label>
           <br />
           <input
@@ -91,7 +87,7 @@
             v-model="area_ground"
           />
         </div>
-        <div class="col-6">
+        <div class="col-12">
           <label for="areaConstruida">Área construída</label>
           <br />
           <input
@@ -102,10 +98,8 @@
             v-model="area_built"
           />
         </div>
-      </div>
 
-      <div class="row">
-        <div class="col">
+        <div class="col-12">
           <label for="img">Imagem</label>
           <br />
           <input
@@ -129,7 +123,7 @@
           Dados do LocalStorage
         </button>
       </div>
-    </div>
+    </ul>
 
     <div class="list-group">
       <h1 class="listaTitulo">Lista</h1>
