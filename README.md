@@ -10,7 +10,7 @@ O intuito dessa aplicação é selecionar os dados no inputs e retornar em uma l
 > *A pratica localza-se na branch: "lucaslacerdaa-Pratica01"*
 
  #### :pushpin: Pratica 02:
- > -   Obrigatoriamente utilizar Bootstrap (customizar) e Vue.js (condicionais e dinamismo do site) para otimizar a plataforma da __pratica 01__. Também fazendo o uso de JSON.
+ > -   utiliza Bootstrap (customização) e Vue.js (condicionais e dinamismo do site) para otimizar a plataforma da __pratica 01__. Também fazendo o uso de JSON.
 
 Pratica   | Link para acesso
 --------- | ------
