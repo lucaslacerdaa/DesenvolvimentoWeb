@@ -1,9 +1,10 @@
-# Projetp Integrado 01 :computer:
+# Projeto Integrado 01 :computer:
 
 ### Área de _Desenvolvimento de software para WEB_ do curso de bacharelado em Ciência da Computação pela Universidade Federal do Ceará.
 <br>
 
-O intuito dessa aplicação é selecionar os dados no inputs e retornar em uma lista de elementos. Onde cada pratica tem o intuído de ir melhorando as técnicas de desenvolvimento de sites.
+<p> Essa aplicação traz duas telas, uma de Login para usuários e outra de uma lista de anúncios.<br>
+Cada pratica tem o intuído de ir melhorando as técnicas de desenvolvimento de sites.</p>
 
 #### :pushpin: Objetivos:
 > - Desenvolvimento utilizando HTML, CSS, Javascript;
@@ -21,13 +22,13 @@ dados de um apartamento, não precisa usar armazenamento, apenas deixar estátic
 cadastrados, não precisa user armazenamento, apenas deixar estático);
 
 
-Projeto   | Link para acesso
+Canal de contato   | Link para acesso
 --------- | ------
 Apresentação (*You Tube*) | https://youtu.be/XA6nf9M3Fmo
 Linkedin | https://www.linkedin.com/in/lucaslacerda-jlbl/
 
-#### Autores do Código:
+#### Autor(es) do Código:
 
 <li> João Lucas Barreto Lacerda (Front-End). :mortar_board: -> 474676</li>
-<li> </li>
-<li> </li>
+<li> :mortar_board: </li>
+<li> :mortar_board: </li>
