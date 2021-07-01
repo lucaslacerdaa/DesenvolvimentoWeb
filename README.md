@@ -9,15 +9,15 @@ Todos os exercícios estão dispostos nas branches. <br>
 A branch _main_ será usada para o projeto final da disciplina.
 
 #### :pushpin: Pratica 01:
-> - Referia-se a desenvolver uma plataforma de locação de moveis apenas com HMTL, CSS e JavaScript. Para exercitar os conceitos básicos e estruturais das linguagens de marcação e programação.
+> - Referia-se a desenvolver uma plataforma de locação de moveis apenas com HMTL, CSS e JavaScript. Para exercitar os conceitos básicos e estruturais das linguagens de marcação e programação. <br>
 > *A pratica localza-se na branch: "Pratica01-Basic"*
 
  #### :pushpin: Pratica 02:
- > -   Obrigatoriamente utilizar Bootstrap (customizar) e Vue.js (condicionais e dinamismo do site) para otimizar a plataforma da __pratica 01__. Também fazendo o uso de JSON.
+ > -   Obrigatoriamente utilizar Bootstrap (customizar) e Vue.js (condicionais e dinamismo do site) para otimizar a plataforma da __pratica 01__. Também fazendo o uso de JSON. <br>
  > *A pratica localza-se na branch: "Pratica02-Vue.js"*
 
  #### :pushpin: Projeto Integrado 01:
- > -   Desenvolver duas telas, uma de Login e outra de listagem, utilizando HTML, CSS e JavaScript.
+ > -   Desenvolver duas telas, uma de Login e outra de listagem, utilizando HTML, CSS e JavaScript.<br>
  > *A pratica localza-se na branch: "Projeto-Integrado01"*
 
 
