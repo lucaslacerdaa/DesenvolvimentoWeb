@@ -26,26 +26,50 @@
         <h1>Cadastro de paciente</h1>
         <div class="row">
           <div class="col">
-            <input type="text" class="form-control" placeholder="Nome">
+            <input 
+            type="text"
+            id="nome"
+            class="form-control"
+            placeholder="Nome">
           </div>
           <div class="col">
-            <input type="text" class="form-control" placeholder="Sobrenome">
+            <input 
+            type="text"
+            id="sobrenome"
+            class="form-control" 
+            placeholder="Sobrenome">
           </div>
         </div>
         <div class="row">
           <div class="col">
-            <input type="email" class="form-control" placeholder="CPF">
+            <input
+            type="email"
+            id="CPF"
+            class="form-control"
+            placeholder="CPF">
           </div>
           <div class="col">
-            <input type="text" class="form-control" placeholder="RG">
+            <input
+            type="text"
+            id="RG"
+            class="form-control"
+            placeholder="RG">
           </div>
         </div>
         <div class="row">
           <div class="col-4">
-            <input type="text" class="form-control" placeholder="Idade">
+            <input
+            type="number"
+            id="idade"
+            class="form-control"
+            placeholder="Idade">
           </div>
           <div class="col-4">
-            <input type="text" class="form-control" placeholder="Peso">
+            <input
+            type="number"
+            id="peso"
+            class="form-control"
+            placeholder="Peso">
           </div>
           <div class="col-4">
             <input type="text" class="form-control" placeholder="Data exame">
@@ -53,50 +77,92 @@
         </div>
         <div class="row">
           <div class="col">
-            <input type="email" class="form-control" placeholder="Email">
+            <input
+            type="email"
+            id="email"
+            class="form-control"
+            placeholder="Email">
           </div>
           <div class="col">
-            <input type="text" class="form-control" placeholder="Telefone">
+            <input
+            type="text"
+            id="telefone"
+            class="form-control"
+            placeholder="Telefone">
           </div>
         </div>
 
         <div class="row" id="tipoSanguineo">
-          <label class="tituloTipoSang">Tipo Sanguineo:</label>
+          <label
+          class="tituloTipoSang">
+          Tipo Sanguineo
+          </label>
           <div class="col-4">
             <div class="custom-control custom-radio custom-control-inline">
-              <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+              <input 
+              type="radio"
+              id="customRadioInline1"
+              name="customRadioInline1"
+              class="custom-control-input">
               <label class="custom-control-label" for="customRadioInline1">A+</label>
             </div>
             <div class="custom-control custom-radio custom-control-inline">
-              <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+              <input 
+              type="radio" 
+              id="customRadioInline2" 
+              name="customRadioInline1" 
+              class="custom-control-input">
               <label class="custom-control-label" for="customRadioInline2">A-</label>
             </div>
-            
               <div class="custom-control custom-radio custom-control-inline">
-                <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                <input 
+                type="radio" 
+                id="customRadioInline1" 
+                name="customRadioInline1" 
+                class="custom-control-input">
                 <label class="custom-control-label" for="customRadioInline1">B+</label>
               </div>
               <div class="custom-control custom-radio custom-control-inline">
-                <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                <input 
+                type="radio" 
+                id="customRadioInline2" 
+                name="customRadioInline1" 
+                class="custom-control-input">
                 <label class="custom-control-label" for="customRadioInline2">B-</label>
               </div>  
           </div>
           <div class="col-4">
             <div class="custom-control custom-radio custom-control-inline">
-              <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+              <input 
+              type="radio" 
+              id="customRadioInline1" 
+              name="customRadioInline1" 
+              class="custom-control-input">
               <label class="custom-control-label" for="customRadioInline1">AB+</label>
             </div>
             <div class="custom-control custom-radio custom-control-inline">
-              <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+              <input 
+              type="radio" 
+              id="customRadioInline2" 
+              name="customRadioInline1" 
+              class="custom-control-input">
               <label class="custom-control-label" for="customRadioInline2">AB-</label>
             </div>
             
               <div class="custom-control custom-radio custom-control-inline">
-                <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                <input 
+                type="radio" 
+                id="customRadioInline1" 
+                name="customRadioInline1" 
+                class="custom-control-input">
                 <label class="custom-control-label" for="customRadioInline1">O+</label>
               </div>
               <div class="custom-control custom-radio custom-control-inline">
-                <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                <input 
+                type="radio" 
+                id="customRadioInline2" 
+                name="customRadioInline1" 
+                class="custom-control-input">
                 <label class="custom-control-label" for="customRadioInline2">O-</label>
               </div> 
           </div>
@@ -104,23 +170,39 @@
 
         <div class="form-group">
           <label for="exampleFormControlTextarea1">Comorbidades</label>
-          <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+          <textarea 
+          class="form-control" 
+          id="exampleFormControlTextarea1" 
+          rows="2">
+          </textarea>
         </div>
 
         <div class="Ficha">
           <label>Ficha tecnica</label>
           <div class="custom-file">
-            <input type="file" class="custom-file-input" id="customFileLang" lang="pt-br">
+            <input 
+            type="file" 
+            class="custom-file-input" 
+            id="customFileLang" 
+            lang="pt-br">
           </div>
         </div>
 
         <div class="botoes">
-          <button type="button" class="btn btn-success">Cadastrar</button>
-          <button type="button" class="btn btn-danger">Limpar</button>
+          <button 
+            type="button" 
+            class="btn btn-success">
+            Cadastrar
+          </button>
+          <button 
+            type="button" 
+            onclick="limpar()"
+            class="btn btn-danger">
+            Limpar
+          </button>
         </div>
 
       </form>
-
       <div class="Container">
         <div class="listaTitulo">
           <h1>Lista de pacientes</h1>
