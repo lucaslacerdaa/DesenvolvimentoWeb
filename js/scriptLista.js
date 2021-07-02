@@ -1,3 +1,24 @@
+/*...
+--> A T E N Ç Ã O <--
+
+Essa functions funcional, entretando não para o código novo.
+Tem que adicionar mais campos, mudar os nomes do getElementById() para os ids dos campos novos assim como a outra functions de lista.
+
+Ao fazer o ToString da listagem apresentar a seguinte estrutura:
+----
+Nome: Exemplo Funlando
+CPF: 000.000.000-00     RG: 00000000-0
+Idade: 00   Peso: 00
+Data do exame: 00.00.2000
+Tipo sanguineo: O+
+Comorbidades: Asma, Diabetes.
+Email: exemplo@exe.com  Telefone: (00) 0 0000.0000
+
+"--> foto da ficha do google <--"
+---
+
+...*/
+
 function adicionar() {
 
     let titulo = document.getElementById("titulo").value;
