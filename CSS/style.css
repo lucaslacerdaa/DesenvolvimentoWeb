@@ -5,7 +5,7 @@
     color: rgb(255, 255, 255);
    
         /* The image used */
-        background-image: url("https://images.unsplash.com/photo-1600877685303-857fde8d40d1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=400&q=80");
+        background-image: url("https://image.freepik.com/vetores-gratis/fundo-realista-de-coronavirus_52683-46586.jpg");
       
         /* Set a specific height */
         min-height: 500px;
@@ -30,18 +30,17 @@ header{
     height: 40%;
 }
 main{
-    background: rgba(165, 42, 42, 0);
+    background: rgba(255, 255, 255, 0);
     padding: 2rem;
+    
 }
 footer{
     text-align: center;
-    margin-top: 16rem;
+    margin-top: 11rem;
     margin-bottom: 0.5rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    padding: 2rem;
     color: rgba(255, 255, 255, 0.986);
-    background-color: rgba(255, 255, 255, 0);
 }
 .inputsLogin{
     text-align: center;
@@ -49,9 +48,20 @@ footer{
 }
 
 .Login{
+    background-color: rgba(240, 255, 255, 0.479);
+    backdrop-filter: blur(3px);
     text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    height: 250px;
+    border-radius: 8px;
+    
 }
 #user{
+    margin-top: 1rem;
     padding: 0.5rem;
     border-radius: 5px;
     border: transparent;
@@ -59,6 +69,7 @@ footer{
     
 }
 #senha{
+    margin-top: 0.3rem;
     padding: 0.5rem;
     border-radius: 5px;
     border: transparent;
@@ -69,7 +80,7 @@ footer{
     width: 290px;
     background-color: rgb(0, 255, 76);
     color: cornsilk;
-    margin-top: 2rem;
+    margin-top: 3rem;
     padding: 0.5rem;
     border-radius: 5px;
     border-color: rgb(181, 255, 163);

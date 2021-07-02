@@ -1,0 +1,313 @@
+ <div class="card">
+      <div class="SubCab">
+        <h1>Dados da pessoa</h1>
+      </div>
+
+      <div class="input-group">
+        <label for="titulo"></label>
+        <br />
+        <input 
+        type="text"
+        id="titulo"
+        name="titulo" 
+        placeholder="Nome completo" />
+      </div>
+
+      <div class="input-group">
+        <label for="descricao"></label>
+        <br />
+        <input
+          type="email"
+          id="descricao"
+          name="descrição"
+          placeholder="Email"
+        />
+      </div>
+
+      <div class="input-group">
+        <label for="quartos"></label>
+        <br />
+        <input
+          type="text"
+          id="quartos"
+          name="quartos"
+          placeholder="Logadouro"
+        />
+      </div>
+
+      <div class="input-group">
+        <label for="vagas"></label>
+        <br />
+        <input
+          type="text"
+          id="vagas"
+          name="vagas"
+          placeholder="N°"
+        />
+      </div>
+
+      <div class="input-group">
+        <label for="areaTerreno"></label>
+        <br />
+        <input
+          type="text"
+          id="areaTerreno"
+          name="areaTerreno"
+          placeholder="Bairro"
+        />
+      </div>
+
+      <div class="input-group">
+        <label for="areaConstruida"></label>
+        <br />
+        <input
+          type="text"
+          id="areaConstruida"
+          name="areaContruida"
+          placeholder="CEP"
+        />
+      </div>
+
+      <div class="input-group">
+        <label for="localidade"></label>
+        <br />
+        <input
+          type="text"
+          id="localidade"
+          name="Localidade"
+          placeholder="Endereço"
+        />
+      </div>
+
+      <div class="input-group">
+        <label for="preco"></label>
+        <br />
+        <input type="text" id="preco" name="preço" placeholder="" />
+      </div>
+
+      <div class="input-group">
+        <label for="img"></label>
+        <br />
+        <input type="text" id="img" name="img" placeholder="Foto" />
+      </div>
+
+      <div class="bottonConfirma">
+        <button id="Confirmar" onclick="adicionar()">Confirmar</button>
+      </div>
+
+      <div class="bottonLimpar">
+        <button onclick="limpar()" id="Limpar">Limpar</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="listaTitulo">
+        <h1>Lista</h1>
+      </div>
+      <div class="imageCar">
+        <ul id="anuncios"></ul>
+      </div>
+    </div>
+
+
+
+    ----> CSS <----
+    body{
+    color:#ffffff;
+}
+main{
+    text-align: center;
+    margin-left: auto;
+    margin-left: auto;
+}
+form{
+    text-align: ;
+    padding: 500px;
+}
+#container{
+    width: min(90vw, 800px);
+    margin: auto;
+}
+.SubCab{
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+
+.imageCar img{
+    
+    height: 50%;
+    width: 70%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 1rem;
+    
+}
+
+.card{
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top:  3rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 400px;
+   
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.664);
+    backdrop-filter: blur(3px);
+    
+   
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 8px;
+}
+
+.input-group{
+    text-align: center;
+    
+    margin-top: 1.5rem;
+}
+
+input[type=text]{ 
+    width: 295px;
+    padding: 0.7rem;
+    margin-top: 0.2rem;
+
+    border-radius:4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #383838;
+    -moz-box-shadow: 1px 1px 2px #424242;
+    -webkit-box-shadow: 1px 1px 2px #363636;
+    border:1px solid #6e6e6e;
+
+    background: #f1f1f1; 
+    
+    
+    
+}
+    
+textarea{
+    border: 1px solid #000000;
+    background:#ebebeb;
+    width:150px;
+    height:100px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #aaaaaa;
+    -moz-box-shadow: 1px 1px 2px #bdbdbd;
+    -webkit-box-shadow: 1px 1px 2px #e9e9e9;
+}
+input[type=text]:hover, textarea:hover{
+    background: #ffffff;
+    border:1px solid #0b8000;
+}
+
+input[type=email]{ 
+    width: 295px;
+    padding: 0.7rem;
+    margin-top: 0.2rem;
+
+    border-radius:4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #383838;
+    -moz-box-shadow: 1px 1px 2px #424242;
+    -webkit-box-shadow: 1px 1px 2px #363636;
+    border:1px solid #6e6e6e;
+
+    background: #f1f1f1; 
+    
+    
+    
+}
+    
+textarea{
+    border: 1px solid #000000;
+    background:#ebebeb;
+    width:150px;
+    height:100px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #aaaaaa;
+    -moz-box-shadow: 1px 1px 2px #bdbdbd;
+    -webkit-box-shadow: 1px 1px 2px #e9e9e9;
+}
+input[type=email]:hover, textarea:hover{
+    background: #ffffff;
+    border:1px solid #0b8000;
+}
+
+footer{
+    color: rgba(240, 248, 255, 0.589);
+    text-align: center;
+    font-size: 2rem;
+
+    margin-bottom: 2rem;
+    margin-top:  8rem;
+
+}
+
+/*Botões de Confirmar/Limpar*/
+#Confirmar{
+    font-family: 'Poppins', sans-serif;
+    font-size:medium ;
+    color: rgb(255, 255, 255);
+    border-color: rgb(181, 255, 163);
+    
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 50px;
+    margin-top: 2rem;
+    margin-bottom: 0.8rem;
+    font-weight: normal;
+    
+    
+    
+    
+    padding: 0.7rem 0.7rem 0.7rem 0.7rem;
+    border-radius: 0.5rem;     
+
+    background:rgb(0, 255, 76);
+}
+#Limpar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins', sans-serif;
+    font-size:medium ;
+    color: rgb(255, 255, 255);
+    
+    width: 300px;
+    height: 50px;
+            
+    margin-top: 0rem;
+    margin-bottom: 0.8rem;
+    
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+
+    background:rgb(228, 64, 64);
+    border-color: rgb(255, 163, 163);
+}
+
+#anuncios{
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+}
+.listaTitulo{
+    text-align: center;
+}
+#imagemAnuncio{
+    width: 50px;
+    height: 50px;
+    background-size: 200px 150px;
+}
