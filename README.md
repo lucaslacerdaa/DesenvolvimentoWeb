@@ -17,7 +17,7 @@ A branch _main_ será usada para o projeto final da disciplina.
  > *A pratica localza-se na branch: "Pratica02-Vue.js"*
 
  #### :pushpin: Projeto Integrado 01:
- > -   Desenvolver duas telas, uma de Login e outra de listagem, utilizando HTML, CSS e JavaScript. Criando assim a primeira parte do trabalho final<br>
+ > -   Desenvolver duas telas, uma de Login e outra de listagem, utilizando HTML, CSS e JavaScript. <br>Criando assim a primeira parte do trabalho. final<br>
  > *A pratica localza-se na branch: "Projeto-Integrado01"*
 
 
