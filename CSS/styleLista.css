@@ -1,40 +1,27 @@
 :root{
-    font-family: 'Poppins', sans-serif;
-    /* The image used */
-    background-image: url("https://image.freepik.com/vetores-gratis/fundo-realista-de-coronavirus_52683-46586.jpg");
-      
-    /* Set a specific height */
-    min-height: 500px;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: rgb(255, 254, 231);
+    --logoCor: #f79595;
+    --cards: #044f006e;
+    --fundo: rgb(255, 254, 231);
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-     
-}
+
 
 header{
     text-align: center;
     margin-top: 2rem;
     margin-bottom: auto;
-  
+    background: var(--fundo);
 }
 .logo img{
     width: 200px;
     height: 200pxpx;
 }
 main{
-    background-color: black;
+    background-color:var(--fundo);
     padding: 2rem 2rem 2rem 2rem;
 }
 form{
-    background-color: rgb(135, 135, 255);
+    background-color: var(--cards);
     color: rgb(255, 255, 255);
     padding: 2rem 2rem 2rem 2rem;
     margin-top: 1rem;
@@ -43,18 +30,27 @@ form{
 .row{
     margin-bottom: 1rem;
 }
-#tipoSanguineo{
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 8px;
-    padding: 8px 0px 8px 0px;
-    
-    background:rgba(255, 255, 255, 0.761) ;
-    color: rgb(85, 85, 85);
-};
+.form-group{
+    margin-bottom: 2rem;
+}
 
 .botoes{
+    margin-top: 1rem;
     text-align: center;
+}
+.Ficha{
+    background-color: rgba(255, 255, 255, 0.761);
+    color:rgb(72, 72, 72);
+    text-align: center;
+
+    border-width: 2px;
+    border-color: rgb(75, 75, 75);
+    border-radius: 8px;
+
+    padding: 1rem 2rem 2rem 1rem;
+}
+.Ficha label{
+    font-size: 22px;
 }
 footer{
     color: rgba(240, 248, 255, 0.589);
@@ -65,4 +61,19 @@ footer{
     margin-top:  8rem;
 
 }
+
+#customFileLang{
+    padding: 1rem 0rem 0rem 0rem ;
+}
+
+#tipoSanguineo{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    padding: 1px 0px 1px 0px;
+    
+    background:rgba(255, 255, 255, 0.761);
+    color: rgb(72, 72, 72);
+}
+
 /*comments*/
