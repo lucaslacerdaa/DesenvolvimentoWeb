@@ -7,6 +7,15 @@ function logar(){
     }
 
 };
+
+function registar(){
+    
+    if(validar_cadastro()){
+        window.location.href = "http://127.0.0.1:5500/listaAnuncios.html";
+    }
+
+};
+
 var users = [
     {"usuario": "Joe", "senha": "12345678"},
     {"usuario": "Saulo", "senha": "12345678"},
@@ -37,6 +46,36 @@ function validar_login() {
 
     alert("Usuario e Senha Nao Reconhecidos! Tente Novamente");
     return false;
+
+};
+
+function validar_cadastro() {
+
+    let nome = document.getElementById('nome').value;
+    let user = document.getElementById('user').value;
+    let senha = document.getElementById('senha').value;
+
+    if((user == "") || ((senha == "") || (nome == ""))){
+        alert("Há Campo(s) Vazios!");
+        return false;
+    }
+
+    if(nome.length < 6){
+        alert("Informe um Nome com no Mínimo 6 Caracteres!");
+        return false;
+    }
+
+    if(user.length < 6){
+        alert("Informe um Nome de Usuário com no Mínimo 6 Caracteres!");
+        return false;
+    }
+
+    if(senha.length < 8){
+        alert("Informe uma Senha com no Mínimo 8 Caracteres!");
+        return false;
+    }
+
+    return true;
 
 };
 
