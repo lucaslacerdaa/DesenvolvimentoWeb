@@ -21,41 +21,41 @@ Email: exemplo@exe.com  Telefone: (00) 0 0000.0000
 
 function adicionar() {
 
-    let nome = document.getElementById("Nome").value;
-    let sobrenome = document.getElementById("Sobrenome").value;
-    let CPF = document.getElementById("CPF").value;
-    let RG = document.getElementById("RG").value;
+    console.log('entrou');
+    let nome = document.getElementById("nome").value;
+    let sobrenome = document.getElementById("sobrenome").value;
+    let CPF = document.getElementById("cpf").value;
+    let RG = document.getElementById("rg").value;
     let idade = document.getElementById("idade").value;
     let peso = document.getElementById("peso").value;
-    let dataExame = document.getElementById("dataexame").value;
+    let dataExame = document.getElementById("dataExame").value;
     let email = document.getElementById("email").value;
     let telefone = document.getElementById("telefone").value;
     let tipoSanguineo = document.getElementById("tipoSanguineo").value;
     let comorbidades = document.getElementById("comorbidades").value;
     let arquivo = document.getElementById("arquivo").value;
-    let anuncios = document.getElementById("anuncios").innerHTML;
+    let pacientes = document.getElementById("pacientes").innerHTML;
 
-    anuncios += "<br><label><br>"+
+    pacientes += "<br><label><br>"+
     nome + sobrenome + "</br>"+
-    CPF + +"  "+ RG +"<br>"+
+    CPF + "  "+ RG +"<br>"+
     idade + "</br>" +
     peso + "<br>" +
     dataExame + "<br>" +
     email + "<br>" +
     telefone + "</br>" +
-    tipoSanguineo + "<br>" +
-    comorbidades + "</br>" +
-    preco + 
-    "<br> <img src=\"" + arquivo + "\"> </img> </br>";
+    tipoSanguineo + 
+    "<br>" + comorbidades + "</br>" + 
+    "<br> <img src=\"" + arquivo + "\"> </br>";
 
-    document.getElementById("anuncios").innerHTML = anuncios;
+    document.getElementById("pacientes").innerHTML = pacientes;
 }
 
 function limpar(){
     document.getElementById('nome').value = '';
     document.getElementById('sobrenome').value = '';
-    document.getElementById('CPF').value = '';
-    document.getElementById('RG').value = '';
+    document.getElementById('cpf').value = '';
+    document.getElementById('rg').value = '';
     document.getElementById('idade').value = '';
     document.getElementById('peso').value = '';
     document.getElementById('dataExame').value = '';

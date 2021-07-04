@@ -18,23 +18,30 @@ function validar_login() {
     let user = document.getElementById('user').value;
     let senha = document.getElementById('senha').value;
 
+    let alerts = document.getElementById("alert").innerHTML;
+
     if((user == "") || (senha == "")){
-        alert("Usuario e Senha Devem ser Informados! Tente Novamente");
+        alert += "<div id=\"alertLogin\"> Usuario e Senha Devem ser Informados! Tente Novamente </div>"; 
         return false;
     }
 
     for (var u in users) {
         var us = users[u];
+        if ((us.usuario != user) && (us.senha === senha)) {
+            alert += "<div id=\"alertLogin\"> Usuário inválido! Tente Novamente </div>"; 
+            return false;
+        }
         if ((us.usuario === user) && (us.senha === senha)) {
             return true;
         }
         if ((us.usuario === user) && (us.senha != senha)) {
-            alert("Senha Incorreta! Tente Novamente");
+            alert += "<div id=\"alertLogin\"> Senha incorreta! Tente Novamente </div>"; 
             return false;
         }
     }
 
-    alert("Usuario e Senha Nao Reconhecidos! Tente Novamente");
+
+    alert += "<div id=\"alertLogin\"> Usuario e Senha não reco! Tente Novamente </div>"; 
     return false;
 
 };
