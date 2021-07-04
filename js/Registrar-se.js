@@ -1,6 +1,6 @@
 /*---> Criar function Logar();*/
 
-function logar(){
+/*function logar(){
     
     if(validar_login()){
         window.location.href = "http://127.0.0.1:5500/listaAnuncios.html";
@@ -38,8 +38,8 @@ function validar_login() {
     alert("Usuario e Senha Nao Reconhecidos! Tente Novamente");
     return false;
 
-};
+};*/
 
-function redirecionarCadastro(){
-    window.location.href = "http://127.0.0.1:5500/registrar-se.html";
+function registar(){
+    window.location.href = "http://127.0.0.1:5500/listaAnuncios.html";
 };

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Map Cov</title>
+    <title>registra-se</title>
         <link rel="icon" href="./img/coronavirus.png" type="image/icon type">
         <link rel="stylesheet" href="./CSS/style.css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +22,20 @@
     <main>
         <div class="Login">
             <br>
-            <h3>Login</h3>
+            <h3>Registre-se</h3>
+
+            <div class="inputLogin">
+                <label 
+                    for="nome">
+                </label>
+                <br/>
+                <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    placeholder="Nome"/>
+            </div>
+
             <div class="inputLogin">
                 <label 
                     for="user">
@@ -34,13 +47,13 @@
                     name="user"
                     placeholder="Usuário"/>
             </div>
+
             <div class="inputLogin">
                 <label 
                     for="senha">
                 </label>
                 <br/>
                 <input
-                    
                     type="password"
                     id="senha"
                     name="senha"
@@ -50,14 +63,8 @@
             <button
                 class="button"
                 type="button"
-                onclick="logar()">
-                Entrar
-            </button>
-            <button
-                class="button2"
-                type="button"
-                onclick="redirecionarCadastro()">
-                cadastrar
+                onclick="registar()">
+                Registrar
             </button>
         </div>
         
