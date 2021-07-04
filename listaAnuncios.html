@@ -44,14 +44,14 @@
           <div class="col">
             <input
             type="email"
-            id="CPF"
+            id="cpf"
             class="form-control"
             placeholder="CPF">
           </div>
           <div class="col">
             <input
             type="text"
-            id="RG"
+            id="rg"
             class="form-control"
             placeholder="RG">
           </div>
@@ -72,7 +72,7 @@
             placeholder="Peso">
           </div>
           <div class="col-4">
-            <input type="text" class="form-control" placeholder="Data exame">
+            <input id="dataExame" type="text" class="form-control" placeholder="Data exame">
           </div>
         </div>
         <div class="row">
@@ -101,7 +101,7 @@
             <div class="custom-control custom-radio custom-control-inline">
               <input 
               type="radio"
-              id="customRadioInline1"
+              id="tipoSanguineo"
               name="customRadioInline1"
               class="custom-control-input">
               <label class="custom-control-label" for="customRadioInline1">A+</label>
@@ -109,7 +109,7 @@
             <div class="custom-control custom-radio custom-control-inline">
               <input 
               type="radio" 
-              id="customRadioInline2" 
+              id="tipoSanguineo" 
               name="customRadioInline1" 
               class="custom-control-input">
               <label class="custom-control-label" for="customRadioInline2">A-</label>
@@ -117,7 +117,7 @@
               <div class="custom-control custom-radio custom-control-inline">
                 <input 
                 type="radio" 
-                id="customRadioInline1" 
+                id="tipoSanguineo" 
                 name="customRadioInline1" 
                 class="custom-control-input">
                 <label class="custom-control-label" for="customRadioInline1">B+</label>
@@ -125,7 +125,7 @@
               <div class="custom-control custom-radio custom-control-inline">
                 <input 
                 type="radio" 
-                id="customRadioInline2" 
+                id="tipoSanguineo" 
                 name="customRadioInline1" 
                 class="custom-control-input">
                 <label class="custom-control-label" for="customRadioInline2">B-</label>
@@ -135,7 +135,7 @@
             <div class="custom-control custom-radio custom-control-inline">
               <input 
               type="radio" 
-              id="customRadioInline1" 
+              id="tipoSanguineo" 
               name="customRadioInline1" 
               class="custom-control-input">
               <label class="custom-control-label" for="customRadioInline1">AB+</label>
@@ -143,7 +143,7 @@
             <div class="custom-control custom-radio custom-control-inline">
               <input 
               type="radio" 
-              id="customRadioInline2" 
+              id="tipoSanguineo 
               name="customRadioInline1" 
               class="custom-control-input">
               <label class="custom-control-label" for="customRadioInline2">AB-</label>
@@ -152,7 +152,7 @@
               <div class="custom-control custom-radio custom-control-inline">
                 <input 
                 type="radio" 
-                id="customRadioInline1" 
+                id="tipoSanguineo" 
                 name="customRadioInline1" 
                 class="custom-control-input">
                 <label class="custom-control-label" for="customRadioInline1">O+</label>
@@ -160,7 +160,7 @@
               <div class="custom-control custom-radio custom-control-inline">
                 <input 
                 type="radio" 
-                id="customRadioInline2" 
+                id="tipoSanguineo" 
                 name="customRadioInline1" 
                 class="custom-control-input">
                 <label class="custom-control-label" for="customRadioInline2">O-</label>
@@ -172,7 +172,7 @@
           <label for="exampleFormControlTextarea1">Comorbidades</label>
           <textarea 
           class="form-control" 
-          id="exampleFormControlTextarea1" 
+          id="comorbidades" 
           rows="2">
           </textarea>
         </div>
@@ -183,7 +183,7 @@
             <input 
             type="file" 
             class="custom-file-input" 
-            id="customFileLang" 
+            id="arquivo" 
             lang="pt-br">
           </div>
         </div>
@@ -191,7 +191,8 @@
         <div class="botoes">
           <button 
             type="button" 
-            class="btn btn-success">
+            class="btn btn-success"
+            onclick="adicionar()">
             Cadastrar
           </button>
           <button 
@@ -208,7 +209,7 @@
           <h1>Lista de pacientes</h1>
         </div>
         <div class="img">
-          <ul id="anuncios"></ul>
+          <ul id="pacientes"></ul>
         </div>
       </div>
 

@@ -1,0 +1,66 @@
+[33mcommit 573c7afc59a9421b8d45de0d5d8548c4009f4679[m[33m ([m[1;31morigin/Projeto-Integrado01[m[33m)[m
+Author: Saulo Cavalcante <saulocavalcante25@hotmail.com>
+Date:   Sat Jul 3 20:32:06 2021 -0300
+
+    Adiciona validacoes a tela de login
+
+[33mcommit 30b0bd2fd27c01ffb1f7073281322a36373fa89e[m
+Author: Lucas Lacerda <lucaslacerda.jlbl@gmail.com>
+Date:   Fri Jul 2 16:58:59 2021 -0300
+
+    Function limpar 1/2
+
+[33mcommit ad2211d71873e0188fdc100b286e0cffc548f687[m
+Author: Lucas Lacerda <lucaslacerda.jlbl@gmail.com>
+Date:   Fri Jul 2 14:48:49 2021 -0300
+
+    Update v1.0
+
+[33mcommit e6d878a60c462c1611b9f04dd7a9fd2174bc06b2[m
+Author: Lucas Lacerda <lucaslacerda.jlbl@gmail.com>
+Date:   Fri Jul 2 14:16:26 2021 -0300
+
+    Inserindo elem. Dados Paciente
+
+[33mcommit b7ce01680f434b7c2df04925f42b2df56641206a[m
+Merge: 6392f52 9466331
+Author: Lucas Lacerda <lucaslacerda.jlbl@gmail.com>
+Date:   Fri Jul 2 12:06:45 2021 -0300
+
+    Merge branch 'Projeto-Integrado01' of https://github.com/lucaslacerdaa/DesenvolvimentoWeb into Projeto-Integrado01
+
+[33mcommit 6392f52997b3bd84a7e9015a5160489bc6be0eef[m
+Author: Lucas Lacerda <lucaslacerda.jlbl@gmail.com>
+Date:   Fri Jul 2 12:06:32 2021 -0300
+
+    Add entities 0.1
+
+[33mcommit 17bc7ed94b4b3d55fbfcfecf31db0cae67643cdb[m
+Author: Lucas Lacerda <lucaslacerda.jlbl@gmail.com>
+Date:   Fri Jul 2 12:02:56 2021 -0300
+
+    Add entidades
+
+[33mcommit 9466331d2cb452a4ec6c945cf1318b98b36879a1[m
+Author: Lucas Lacerda <54128863+lucaslacerdaa@users.noreply.github.com>
+Date:   Thu Jul 1 15:58:41 2021 -0300
+
+    Update README 0.2
+
+[33mcommit 7a351fc9c9ef3ede7065a267e6395f4022a78b78[m
+Author: Lucas Lacerda <54128863+lucaslacerdaa@users.noreply.github.com>
+Date:   Thu Jul 1 15:50:07 2021 -0300
+
+    Update 0.01 README
+
+[33mcommit fd4306e85bb454989665fbdbde57ec9c59c354b3[m
+Author: Lucas Lacerda <54128863+lucaslacerdaa@users.noreply.github.com>
+Date:   Thu Jul 1 15:23:24 2021 -0300
+
+    Create README
+
+[33mcommit ea8d087a0f153943f9825297400ba2c4b37f180b[m
+Author: Lucas Lacerda <lucaslacerda.jlbl@gmail.com>
+Date:   Thu Jul 1 15:10:13 2021 -0300
+
+    Login e listagem CSS
