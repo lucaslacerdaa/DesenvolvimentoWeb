@@ -30,7 +30,7 @@ function validar_login() {
     let alerts = document.getElementById('alerts').innerHTML;
 
     if((user == "") || (senha == "")){
-        alerts = "<p> Usuario e Senha Devem ser Informados! Tente Novamente </p>";
+        alerts = "<div class=\"alert alert-danger\" role=\"alert\">Usuario e Senha Devem ser Informados! Tente Novamente</div>";
         document.getElementById("alerts").innerHTML = alerts;
         return false;
     }
@@ -41,18 +41,18 @@ function validar_login() {
             return true;
         }
         if ((us.usuario != user) && (us.senha === senha)) {
-            alerts = "<p>Usuario incorreto! Tente Novamente</p>";
+            alerts = "<div class=\"alert alert-danger\" role=\"alert\">Usuario incorreto! Tente Novamente</div>";
             document.getElementById("alerts").innerHTML = alerts;
             return false;
         }
         if ((us.usuario === user) && (us.senha != senha)) {
-            alerts="<p>Senha incorreta! Tente Novamente</p>";
+            alerts="<div class=\"alert alert-danger\" role=\"alert\">Senha incorreta! Tente Novamente</div>";
             document.getElementById("alerts").innerHTML = alerts;
             return false;
         }
     }
 
-    alerts = "<p>Usuario e Senha não reconhecidos! Tente Novamente</p>";
+    alerts = "<div class=\"alert alert-danger\" role=\"alert\">Usuario e Senha não reconhecidos! Tente Novamente</div>";
     document.getElementById("alerts").innerHTML = alerts;
     return false;
 
@@ -65,25 +65,25 @@ function validar_cadastro() {
     let senha = document.getElementById('senha').value;
 
     if((user == "") || ((senha == "") || (nome == ""))){
-        alerts = "Há Campo(s) Vazios!";
+        alerts = "<div class=\"alert alert-danger\" role=\"alert\">Há Campo(s) Vazios!</div>";
         document.getElementById("alerts").innerHTML = alerts;
         return false;
     }
 
     if(nome.length < 6){
-        alerts = "<p>Informe um Nome com no Mínimo 6 Caracteres!</p>";
+        alerts = "<div class=\"alert alert-danger\" role=\"alert\">Informe um Nome com no Mínimo 6 Caracteres!</div>";
         document.getElementById("alerts").innerHTML = alerts;
         return false;
     }
 
     if(user.length < 6){
-        alerts = "<p>Informe um Nome de Usuário com no Mínimo 6 Caracteres!</p>";
+        alerts = "<div class=\"alert alert-danger\" role=\"alert\">Informe um Nome de Usuário com no Mínimo 6 Caracteres!</div>";
         document.getElementById("alerts").innerHTML = alerts;
         return false;
     }
 
     if(senha.length < 8){
-        alerts = "<p>Informe uma Senha com no Mínimo 8 Caracteres!</p>";
+        alerts = "<div class=\"alert alert-danger\" role=\"alert\">Informe uma Senha com no Mínimo 8 Caracteres!</div>";
         document.getElementById("alerts").innerHTML = alerts;
         return false;
     }
