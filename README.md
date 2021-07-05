@@ -30,5 +30,5 @@ Linkedin | https://www.linkedin.com/in/lucaslacerda-jlbl/
 #### Autor(es) do Código:
 
 <li> João Lucas Barreto Lacerda (Front-End). :mortar_board: -> 474676</li>
-<li> :mortar_board: </li>
-<li> :mortar_board: </li>
+<li> Saulo Cavalcante da Silva (Back-End)  :mortar_board: -> 472526 </li> 
+<li> Joelson José de Macedo Carvalho (Back-End) :mortar_board: -> 472621 </li> 
