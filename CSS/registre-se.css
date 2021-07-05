@@ -28,11 +28,6 @@ footer{
     margin-right: 0.5rem;
     color: rgba(255, 255, 255, 0.986);
 }
-.inputsLogin{
-    text-align: center;
-    padding: 2rem 2rem 2rem 2rem;
-}
-
 .Login{
     background-color: rgba(122, 122, 122, 0.479);
     backdrop-filter: blur(3px);
@@ -43,11 +38,9 @@ footer{
     margin-right: auto;
     width: 350px;
     height: 400px;
-    border-radius: 8px;
-    
+    border-radius: 8px;  
 }
 .button{
-
     width: 290px;
     background-color: rgb(95, 177, 119);
     color: cornsilk;
@@ -57,16 +50,12 @@ footer{
     border-color: rgb(139, 168, 133);
     border-width: 1px;
 }
-.button2{
-
-    width: 290px;
-    background-color: rgb(109, 109, 109);
-    color: cornsilk;
+#nome{
     margin-top: 1rem;
     padding: 0.5rem;
     border-radius: 5px;
-    border-color: rgb(139, 168, 133);
-    border-width: 1px;
+    border: transparent;
+    width: 270px;
 }
 #user{
     margin-top: 1rem;
@@ -77,7 +66,7 @@ footer{
     
 }
 #senha{
-    margin-top: 0.3rem;
+    margin-top: 1rem;
     padding: 0.5rem;
     border-radius: 5px;
     border: transparent;
