@@ -29,7 +29,7 @@ function validar_login() {
     let senha = document.getElementById('senha').value;
 
     if((user == "") || (senha == "")){
-        alert("Usuario e Senha Devem ser Informados! Tente Novamente");
+        alert("Usuário e senha devem ser informados. Tente novamente.");
         return false;
     }
 
@@ -39,12 +39,12 @@ function validar_login() {
             return true;
         }
         if ((us.usuario === user) && (us.senha != senha)) {
-            alert("Senha Incorreta! Tente Novamente");
+            alert("Senha incorreta! Tente novamente.");
             return false;
         }
     }
 
-    alert("Usuario e Senha Nao Reconhecidos! Tente Novamente");
+    alert("Usuário e senha não reconhecidos! Tente novamente.");
     return false;
 
 };
@@ -56,22 +56,22 @@ function validar_cadastro() {
     let senha = document.getElementById('senha').value;
 
     if((user == "") || ((senha == "") || (nome == ""))){
-        alert("Há Campo(s) Vazios!");
+        alert("Há campo(s) vazios!");
         return false;
     }
 
     if(nome.length < 6){
-        alert("Informe um Nome com no Mínimo 6 Caracteres!");
+        alert("Informe um nome com no mínimo 6 Caracteres.");
         return false;
     }
 
-    if(user.length < 6){
-        alert("Informe um Nome de Usuário com no Mínimo 6 Caracteres!");
+    if(user.length <= 6){
+        alert("Informe um usuário com no mínimo 6 Caracteres.");
         return false;
     }
 
     if(senha.length < 8){
-        alert("Informe uma Senha com no Mínimo 8 Caracteres!");
+        alert("Informe uma senha com no mínimo 8 Caracteres.");
         return false;
     }
 

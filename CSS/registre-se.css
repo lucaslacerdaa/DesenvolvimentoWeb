@@ -26,10 +26,10 @@ footer{
     margin-bottom: 0.5rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    color: rgba(255, 255, 255, 0.986);
+    color: rgba(48, 48, 48, 0.986);
 }
 .Login{
-    background-color: rgba(122, 122, 122, 0.479);
+    background-color: rgba(77, 77, 77, 0.479);
     backdrop-filter: blur(3px);
     text-align: center;
     margin-top: auto;
@@ -49,13 +49,6 @@ footer{
     border-radius: 5px;
     border-color: rgb(139, 168, 133);
     border-width: 1px;
-}
-#nome{
-    margin-top: 1rem;
-    padding: 0.5rem;
-    border-radius: 5px;
-    border: transparent;
-    width: 270px;
 }
 #user{
     margin-top: 1rem;
