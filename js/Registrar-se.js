@@ -1,45 +1,40 @@
-/*---> Criar function Logar();*/
-
-/*function logar(){
+function registar_se(){
     
-    if(validar_login()){
+    if(validar_cadastro()){
         window.location.href = "http://127.0.0.1:5500/listaAnuncios.html";
     }
 
 };
-var users = [
-    {"usuario": "Joe", "senha": "12345678"},
-    {"usuario": "Saulo", "senha": "12345678"},
-    {"usuario": "John", "senha": "12345678"},
-    {"usuario": "admim", "senha": "admim"},
-];
-
-function validar_login() {
+function validar_cadastro() {
 
     let user = document.getElementById('user').value;
     let senha = document.getElementById('senha').value;
+    let confirmSenha = document.getElementById('confirmSenha').value;
 
-    if((user == "") || (senha == "")){
-        alert("Usuario e Senha Devem ser Informados! Tente Novamente");
+    if((user == "") || ((senha == "") || (confirmSenha == ""))){
+        alert("Há campo(s) vazios!");
+        return false;
+    }
+    if(user.length < 6){
+        alert("Informe um nome com no mínimo 6 Caracteres.");
+        return false;
+    }
+    if(senha.length <= 6){
+        alert("Informe um usuário com no mínimo 6 Caracteres.");
+        return false;
+    }
+    if(confirmSenha.length < 8){
+        alert("Informe uma senha com no mínimo 8 Caracteres.");
         return false;
     }
 
-    for (var u in users) {
-        var us = users[u];
-        if ((us.usuario === user) && (us.senha === senha)) {
-            return true;
-        }
-        if ((us.usuario === user) && (us.senha != senha)) {
-            alert("Senha Incorreta! Tente Novamente");
-            return false;
-        }
-    }
+    return true;
 
-    alert("Usuario e Senha Nao Reconhecidos! Tente Novamente");
-    return false;
+};
 
-};*/
 
+/*
 function registar(){
     window.location.href = "http://127.0.0.1:5500/listaAnuncios.html";
 };
+*/
