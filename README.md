@@ -24,22 +24,26 @@ A branch _main_ será usada para o projeto final da disciplina.
 
 <br>
 
-Pratica   | Link para acesso
+Práticas   | Link para acesso
 --------- | ------
 Prática 01 (*You Tube*) | https://youtu.be/XA6nf9M3Fmo
 Prática 02 (*You Tube*) | https://youtu.be/LaIEY7rqIFk
-Projeto 03 (*You Tube*) | Em desenvolvimento ... 33%
 
-<br>
+Projeto  | Link para acesso
+--------- | ------
+Prototipagem | https://www.figma.com/file/F7xcEIZSPdHDlIb44CPxKs/MapCov?node-id=0%3A1
+
+<br><br><br>
 
 #### Autores do Código:
 
 <li>João Lucas Barreto Lacerda (474676). :mortar_board:</li>
 <li>Joelson José de Macedo Carvalho (472621). :mortar_board:</li>
+<li>Saulo (474676). :mortar_board:</li>
 
-<br><br><br><br>
+<br><br>
 Autor  | Contato
 --------- | ------
 João Lucas| https://www.linkedin.com/in/lucaslacerda-jlbl/
-Joelson M| https://...
-Saulo | https://...
+Joelson M| https://www.linkedin.com/in/joelson-macedo-4b40ba201/
+Saulo | https://www.linkedin.com/in/saulo-cavalcante-09670aa7/
