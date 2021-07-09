@@ -29,7 +29,7 @@ Práticas   | Link para acesso
 Prática 01 (*You Tube*) | https://youtu.be/XA6nf9M3Fmo
 Prática 02 (*You Tube*) | https://youtu.be/LaIEY7rqIFk
 
-Projeto  | Link para acesso
+Etapas do projeto  | Link para acesso
 --------- | ------
 Prototipagem | https://www.figma.com/file/F7xcEIZSPdHDlIb44CPxKs/MapCov?node-id=0%3A1
 
