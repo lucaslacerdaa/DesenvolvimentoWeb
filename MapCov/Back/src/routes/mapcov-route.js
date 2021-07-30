@@ -1,9 +1,8 @@
 const express = require("express");
 const router = express.Router();
-const controller = require("../controllers/car-controller");
+const controller = require("../controllers/mapcov-controller");
 
 router.get("/", controller.get);
-router.get("/search", controller.getByTradeMark);
 router.get("/:id", controller.getById);
 router.post("/", controller.post);
 router.put("/:id", controller.put);

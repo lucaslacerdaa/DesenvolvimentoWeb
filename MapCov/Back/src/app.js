@@ -7,12 +7,12 @@ app.use(express.urlencoded({ extended: true }));
 
 // Routes
 const index = require("./routes/index.js");
-const cars = require("./routes/car-route");
+const pacientes = require("./routes/mapcov-route");
 const cors = require("cors");
 
 app.use(cors());
 app.use("/", index);
-app.use("/cars", cars);
+app.use("/pacientes", pacientes);
 app.use((req, res, next) => {
   res.status(404).send({
     status: 404,
