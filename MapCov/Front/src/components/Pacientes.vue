@@ -1,23 +1,46 @@
 <template>
-  Nome: <input type="text" name="" id="1" v-model="nome" /> <br/>
-  Sobrenome: <input type="text" name="" id="2" v-model="sobrenome" /> <br/>
-  Idade: <input type="text" name="" id="3" v-model="idade" /> <br/>
-  Peso: <input type="text" name="" id="4" v-model="peso" /> <br/>
-  Telefone: <input type="text" name="" id="6" v-model="telefone" /> <br/>
-  Email: <input type="text" name="" id="7" v-model="email" /> <br/>
-  CPF: <input type="text" name="" id="8" v-model="cpf" /> <br/>
-  Rua: <input type="text" name="" id="9" v-model="rua" /> <br/>
-  Bairro: <input type="text" name="" id="10" v-model="bairro" /> <br/>
-  Cidade: <input type="text" name="" id="11" v-model="cidade" /> <br/>
-  Estado: <input type="text" name="" id="12" v-model="estado" /> <br/>
-      
-  Id: <input type="text" name="" id="0" v-model="id" /> <br/>
-
-  <button @click="inserirPacientes">Inserir Paciente</button> <br/>
-  <button @click="fetchByIdPacientes">Buscar Paciente</button>
-  <button @click="fetchPacientes">Mostrar Todos</button> <br/>
-
-  {{ Pacientes }} <br/><br/>
+<div id="container">
+  <div class="card">
+    Nome:      <input type="text"  class="inputs_form" name="" id="1"  v-model="nome"/> 
+    Sobrenome: <input type="text"  class="inputs_form" name="" id="2"  v-model="sobrenome">
+    Idade:     <input type="text"  class="inputs_form" name="" id="3"  v-model="idade"/>
+    Peso:      <input type="text"  class="inputs_form" name="" id="4"  v-model="peso"/>
+    Telefone:  <input type="text"  class="inputs_form" name="" id="6"  v-model="telefone"/>
+    Email:     <input type="text"  class="inputs_form" name="" id="7"  v-model="email"/>
+    CPF:       <input type="text"  class="inputs_form" name="" id="8"  v-model="cpf"/>
+    Rua:       <input type="text"  class="inputs_form" name="" id="9"  v-model="rua"/>
+    Bairro:    <input type="text"  class="inputs_form" name="" id="10" v-model="bairro"/>
+    Cidade:    <input type="text"  class="inputs_form" name="" id="11" v-model="cidade"/>
+    Estado:    <input type="text"  class="inputs_form" name="" id="12" v-model="estado"/>
+    Id:        <input type="text"  class="inputs_form" name="" id="0"  v-model="id"/>
+  </div>
+  <div class="buttons_card">
+    <div class="buttonId">
+      <button 
+        class = "buttons" 
+        @click="inserirPacientes">
+        Inserir Paciente
+      </button><br/>
+    </div>
+    <div class="buttonId">
+      <button
+        class="buttons"
+        @click="fetchByIdPacientes">
+        Buscar Paciente
+      </button>
+    </div>
+    <div class="buttonId">
+      <button
+        class="buttons"
+        @click="fetchPacientes">
+        Mostrar Todos
+      </button>
+      <br/>
+    </div>
+  </div>
+</div>
+  
+{{Pacientes}} <br/><br/>
 
 </template>
 
@@ -35,8 +58,8 @@ export default {
       idade: "", 
       peso: "", 
       telefone: "", 
-      email: "",
-      rua: "",
+      email:"",
+      rua:"",
       bairro: "",
       cidade: "",
       estado: "",
@@ -45,7 +68,7 @@ export default {
     }
   },
 
-  methods: {
+  methods:{
     handleFileUpload(id) {
  
       let obj = {
@@ -103,32 +126,74 @@ export default {
 </script>
 
 <style scoped>
-ul {
+root{
+  text-align: center;
+
+}
+.card{
+  text-align: center;
+  padding: 200px;
+  width: 100px;
+  height: 100px;
+  /*margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: auto;*/
+  background: rgb(173, 23, 23);
+  color: rgb(255, 255, 255);
+}
+.inputs_form{
+  text-align: center;
+  width: 250px;
+  margin-top: 1rem;
+  
+}
+.buttons_card{
+  width: 30px;
+  height: 30px;
+  padding: 100px;
+  margin-top: 1rem;
+}
+/*.buttonId{
+
+}*/
+
+/*ul {
   list-style-type: none;
 }
 
 button#puts {
+  text-align: center;
+  width: 200px;
+  padding: 2px;
+  border-radius: 3px;
+  margin: 15px;
+  background-color:rgb(224, 145, 88);
   font-size: 12pt;
-    font-family: 'Times New Roman', Times, serif;
-    width: 200px;
-    padding: 2px;
-    border-radius: 3px;
-    margin: 15px;
-    text-align: center;
-    background-color:rgb(224, 145, 88);
+  font-family: 'Times New Roman', Times, serif;
 }
 
 li#lista {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-color: rgb(228, 220, 220);
-  padding: 4px;
+  padding: 8px;
   border-radius: 4px;
-  margin: auto;
-  text-align: center;
 }
 
 div#ponto {
   color: rgb(255, 0, 0);
+}*/
+#container{
+  text-align: center;
+  padding: 200px;
+  width: 400px;
+  height: 400px;
+  /*margin: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;*/
+  background-color: rgb(146, 8, 8);
 }
 
 </style>
