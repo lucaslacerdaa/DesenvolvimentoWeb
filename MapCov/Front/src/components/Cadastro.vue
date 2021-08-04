@@ -1,11 +1,13 @@
 <template>
-  Nome de Usuário: <input type="text" name="" id="1" v-model="nome" /> <br/>
-  Senha: <input type="text" name="" id="2" v-model="senha" /> <br/>
-  Repita a Senha: <input type="text" name="" id="3" v-model="senha2" /> <br/>
+  <div>
+    Nome de Usuário: <input type="text" name="" id="1" v-model="nome" /> <br/>
+    Senha: <input type="text" name="" id="2" v-model="senha" /> <br/>
+    Repita a Senha: <input type="text" name="" id="3" v-model="senha2" /> <br/>
 
-  <button @click="inserirUser">Cadastrar</button> <br/>
+    <button @click="inserirUser">Cadastrar</button> <br/> 
 
-  {{ Logins }} <br/><br/>
+    {{ Logins }} <br/><br/>
+  </div>
 
 </template>
 

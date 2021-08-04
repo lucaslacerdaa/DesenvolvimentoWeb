@@ -38,9 +38,9 @@
       <br/>
     </div>
   </div>
+  {{Pacientes}} <br/><br/>
 </div>
   
-{{Pacientes}} <br/><br/>
 
 </template>
 
