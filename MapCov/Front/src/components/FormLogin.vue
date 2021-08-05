@@ -8,12 +8,12 @@
       Senha:<input type="password" class="inputs_form" name="" id="2" v-model="senha" />
     </div>
     <div class="buttons_login">
-      <button
+      <router-link 
         id="button"
-        class="buttonSignIn"
-        @click="redirect"> 
+        class = "entrar" 
+        to = "/pacientes">
         Entrar
-      </button>
+      </router-link>
       <br>
       <router-link 
         id = "button" 
@@ -27,7 +27,6 @@
 
 <script>
 import axios from "axios";
-
 export default {
   name: "Login",
   data() {
@@ -39,7 +38,6 @@ export default {
       UsersURI: "http://localhost:3080/login",
     };
   },
-
   methods: {
     fetchUsers: function(){
       axios.get(this.UsersURI).then((result)=>{
@@ -128,5 +126,4 @@ export default {
   color: rgb(255, 255, 255);
   border-radius: 5px;
 }
-
 </style>

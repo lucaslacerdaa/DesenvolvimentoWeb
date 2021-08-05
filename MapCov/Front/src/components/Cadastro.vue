@@ -13,7 +13,6 @@
 
 <script>
 import axios from "axios";
-
 export default {
   name: 'Cadastro',
   data() {
@@ -26,7 +25,6 @@ export default {
       UsersURI: "http://localhost:3080/login",
     }
   },
-
   methods: {
     handleFileUpload(id) {
  
@@ -65,6 +63,4 @@ export default {
 </script>
 
 <style scoped>
-
-
 </style>

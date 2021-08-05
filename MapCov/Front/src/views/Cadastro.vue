@@ -6,8 +6,17 @@
 </template>
 
 <script>
-export default {};
+import Cadastro from '../components/Cadastro.vue'
+export default {
+  name: 'cadastro',
+  components: {
+    Cadastro
+  }
+}
 </script>
 
 <style>
+*{
+  background-color: rgb(165, 165, 165);
+}
 </style>

@@ -1,15 +1,15 @@
 <template>
   <div class="container">
-    <Login />
+    <Pacientes />
   </div>
 </template>
 
 <script>
-import Login from '../components/FormLogin.vue'
+import Pacientes from '../components/Pacientes.vue'
 export default {
-  name: 'login',
+  name: 'pacientes',
   components: {
-    Login
+    Pacientes
   }
 }
 </script>
