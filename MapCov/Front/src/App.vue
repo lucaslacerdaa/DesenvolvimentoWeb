@@ -18,11 +18,5 @@ export default {
 #app{
   text-align: right;
   background-color: wheat;
-  /* 
-  text-align: center;
-  margin-top: 6rem; 
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  */
 }
 </style>

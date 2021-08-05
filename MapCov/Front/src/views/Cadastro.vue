@@ -1,6 +1,5 @@
 <template>
   <div>
-      <h1>Cadastro</h1>
     <Cadastro />
   </div>
 </template>
