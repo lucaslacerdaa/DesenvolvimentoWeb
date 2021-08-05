@@ -10,17 +10,17 @@
     <div class="buttons_login">
       <button
         id="button"
-        class="buttonSinUp"
+        class="buttonSignIn"
         @click="redirect"> 
         Entrar
       </button>
       <br>
-      <button
-        id="button"
-        class="buttonSigIn"
-        @click="goToCasdastro">
-        Cadastrar-se
-      </button>
+      <router-link 
+        id = "button" 
+        class = "buttonSignUp" 
+        to = "/cadastro">
+        Cadastro
+      </router-link>
     </div>
   </div>
 </template>
@@ -99,7 +99,6 @@ export default {
   height: 200px;
   padding: 1rem;
   border-radius: 10px;
-  /* text-align: center; */
   background-color: rgb(235, 235, 235);
 }
 .inputs_form{
@@ -108,7 +107,6 @@ export default {
   border-radius: 20px;
   text-align: left;
   margin-top: 2rem;
-  /* margin-bottom: 1rem; */
   margin-right: 2rem;
   background-color: white;
 }
@@ -118,12 +116,13 @@ export default {
   text-align: center;
   background-color: rgba(0, 255, 255, 0);
 }
-.buttonSinUp{
-  background-color: green;
-}
-.buttonSigIn{
+.buttonSignUp{
+  text-decoration: none;
   margin-top: 0.75rem;
-  background-color: rgb(116, 201, 209);
+  background-color: rgb(33, 69, 71);
+}
+.buttonSignIn{
+  background-color: rgb(29, 129, 29);
 }
 #button{
   color: rgb(255, 255, 255);
