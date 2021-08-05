@@ -1,5 +1,7 @@
 <template>
-  <Login />
+  <div class="container">
+    <Login />
+  </div>
 </template>
 
 <script>
@@ -19,11 +21,17 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+*{
+  background-color: rgb(165, 165, 165);
+}
+#app{
+  text-align: right;
+  background-color: wheat;
+  /* 
+  text-align: center;
+  margin-top: 6rem; 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  margin-top: 80px;
+  */
 }
 </style>
