@@ -8,9 +8,11 @@
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "vue": "^3.0.0"
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.10"
   },
   "devDependencies": {
+    "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0"
   },
