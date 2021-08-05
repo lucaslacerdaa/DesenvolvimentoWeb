@@ -1,22 +1,15 @@
 <template>
   <div class="container">
-    <Login />
+    <router-link to="/login"></router-link>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import Login from './components/Login.vue'
-import Cadastro from './components/Cadastro.vue'
-import Pacientes from './components/Pacientes.vue'
 
 
 export default {
-  name: 'App',
-  components: {
-    Login,
-    Cadastro,
-    Pacientes,
-  }
+  
 }
 </script>
 
