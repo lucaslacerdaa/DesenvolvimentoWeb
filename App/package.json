@@ -17,7 +17,10 @@
   },
   "devDependencies": {
     "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0"
+    "@vue/compiler-sfc": "^3.0.0",
+    "sass": "^1.37.5",
+    "sass-loader": "^12.1.0",
+    "webpack": "^5.50.0"
   },
   "browserslist": [
     "> 1%",
