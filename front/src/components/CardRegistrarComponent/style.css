@@ -1,0 +1,142 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(36, 36, 36);
+}
+h1{
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 350%;
+    background-color: transparent;
+    color: #329542;
+}
+
+#container{
+    width: 28vw;
+    height: 72vh;
+    /* margin: cima direita baixo esquerda */
+    margin: -50vh 4% 0vh 65%;
+    padding: 1%;
+    /* padding: 20px 20px 30px 20px; */
+    border-radius: 7px;
+    background-color: #f7f7f7;
+}
+#titulo{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: center;
+    
+    color: #24642e;
+    background-color: transparent;
+}
+#subtitle{
+    color: #3485409a;
+    font-size: 13px;
+    background-color: transparent;
+    margin-right: -20em;
+    transition: background-color 0.2s;
+}
+#subtitle:hover{
+    cursor: pointer;
+    color: #296832;
+}
+#text-box{
+    width: 27vw;
+    height: 5vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 17px;
+    text-align: left;
+    
+    /* margin-top: auto; */
+    /* margin-bottom: 0.5rem; */
+    margin-left: auto;
+    margin-right: auto;
+
+    border-top-color: transparent;
+    border-bottom-color:#24642e;
+    border-left-color: transparent;
+    border-right-color: transparent;
+
+    color: rgb(175, 175, 175);
+    background-color: transparent;
+    transition: background-color 0.2s;
+}
+#text-box:focus{
+    outline: none;
+    /* border-bottom-color:#399c48; */
+    border-bottom:3px solid #399c48;
+}
+#entrar{
+    width: 90%;
+    height: 2.5em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border:transparent;
+    color: white;
+    background-color: #329542;
+    transition: background-color 0.2s;
+}
+button:hover{
+    cursor: pointer;
+    
+}
+#entrar:hover{
+    color: white;
+    background-color: #47ce5d;
+}
+#Cadastrar{
+    width: 90%;
+    height: 2.5em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border:2px;
+    border-top-color:#329542;
+    border-bottom-color:#329542;
+    border-left-color: #329542;
+    border-right-color: #329542;
+    border-style: solid;
+    
+    color: #329542;
+    background-color: transparent;
+    transition: background-color 0.2s;
+}
+#Cadastrar:hover{
+    border: transparent;
+    color: white;
+    background-color: #43c559;
+}
+#Errors{
+    border-radius: 7px;
+    width: 28vw;
+    height: 50px;
+    background-color: #FF4040;
+}
+#titleError{
+    background-color: #FF4040;
+}
+#exc{
+    background-color: #FF4040;
+}
+ul{
+    background-color: #FF4040;
+}
+li{
+    background-color: #FF4040;
+}

@@ -1,0 +1,21 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(36, 36, 36);
+}
+h1{
+    font-size: 60px;
+    color: #329542;
+}
+p{
+    color: #90b997;
+    margin-top: -2.3rem;
+    font-size: 17px;
+}
+#info{
+    width: 400px;
+    height: 200px;
+    margin-top: 15%;
+    margin-left: 2rem;
+    display: inline-flexbox;
+    text-align: left;
+}
