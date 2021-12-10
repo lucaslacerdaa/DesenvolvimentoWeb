@@ -1,9 +1,9 @@
 # Desenvolvimento de Software para Web :computer:
 
-## Área de _Desenvolvimento de software para WEB_ do curso de bacharelado em Ciência da Computação pela Universidade Federal do Ceará.
+### Área de _Desenvolvimento de software para WEB_ do curso de bacharelado em Ciência da Computação pela Universidade Federal do Ceará.
 <br>
 
-### Este repositório contém todos os exercícios propostos na disciplina. <br>
+**Este repositório contém todos os exercícios propostos na disciplina.** <br>
 Ao decorrer deste documento você encontrará a descrição, assim como, o acesso ao links das apresentações.<br>
 Todos os exercícios estão dispostos nas branches. <br>
 A branch _main_ será usada para o projeto final da disciplina.
