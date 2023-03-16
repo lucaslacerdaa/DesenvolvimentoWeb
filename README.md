@@ -3,7 +3,7 @@
 ### Área de _Desenvolvimento de software para WEB_ do curso de bacharelado em Ciência da Computação pela Universidade Federal do Ceará.
 <br>
 
-<img align="center" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ffitbank.com.br%2Fen%2Fhome-fitbank%2F&psig=AOvVaw28AdOQgyNOHZEme2aka5nw&ust=1679058473223000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPDL27DC4P0CFQAAAAAdAAAAABAE](https://projetos7th.com.br/fitbank/wp-content/uploads/2021/01/logo-web.png)](https://projetos7th.com.br/fitbank/wp-content/uploads/2021/01/logo-web.png)">
+<img align="center" src="https://raw.githubusercontent.com/lucaslacerdaa/DesenvolvimentoWeb/1c46c20fe0dc21d6fa5db1a43ac55e531745082b/front/src/assets/ErrorMessage.svg">
 
 **Este repositório contém todos os exercícios propostos na disciplina.** <br>
 Ao decorrer deste documento você encontrará a descrição, assim como, o acesso ao links das apresentações.<br>
