@@ -3,7 +3,7 @@
 ### Área de _Desenvolvimento de software para WEB_ do curso de bacharelado em Ciência da Computação pela Universidade Federal do Ceará.
 <br>
 
-<img align="center" src="https://raw.githubusercontent.com/lucaslacerdaa/DesenvolvimentoWeb/1c46c20fe0dc21d6fa5db1a43ac55e531745082b/front/src/assets/ErrorMessage.svg">
+<img src="https://raw.githubusercontent.com/lucaslacerdaa/DesenvolvimentoWeb/1c46c20fe0dc21d6fa5db1a43ac55e531745082b/front/src/assets/ErrorMessage.svg">
 
 **Este repositório contém todos os exercícios propostos na disciplina.** <br>
 Ao decorrer deste documento você encontrará a descrição, assim como, o acesso ao links das apresentações.<br>
