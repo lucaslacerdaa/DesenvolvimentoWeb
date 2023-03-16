@@ -3,6 +3,8 @@
 ### Área de _Desenvolvimento de software para WEB_ do curso de bacharelado em Ciência da Computação pela Universidade Federal do Ceará.
 <br>
 
+<img align="center" alt="React" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ffitbank.com.br%2Fen%2Fhome-fitbank%2F&psig=AOvVaw28AdOQgyNOHZEme2aka5nw&ust=1679058473223000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPDL27DC4P0CFQAAAAAdAAAAABAE">
+
 **Este repositório contém todos os exercícios propostos na disciplina.** <br>
 Ao decorrer deste documento você encontrará a descrição, assim como, o acesso ao links das apresentações.<br>
 Todos os exercícios estão dispostos nas branches. <br>
